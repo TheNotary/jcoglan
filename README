@@ -1,0 +1,22 @@
+Hey, this project is just a quick demo for testing browsers (and servers) if they're able to work with Faye for giving your webapp a little real-time spice like live chatting and so on.  
+
+To Run
+
+On the server:
+1)  Run $  ruby server.rb
+
+2)  run $  ruby client.rb
+
+3)  Spawn a webserver such as  $  python -m SimpleHTTPServer
+
+
+On the client:  
+
+1)  Browser to http://your-server:8000/main.html
+
+
+
+After all that's done with, you should be seeing alert message boxes popping up on your client web browser.  This means your server is running properly, and your server-side client (client.rb) is running properly.  Client.rb acts very much as a server in this scenario, btw, so appologies for any confusion there.  
+
+You can get a better feel for things by reading from http://faye.jcoglan.com
+
