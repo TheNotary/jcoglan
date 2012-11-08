@@ -3,11 +3,17 @@ Hey, this project is just a quick demo for testing browsers (and servers) if the
 To Run
 
 On the server:
-1)  Run $  ruby server.rb
 
-2)  run $  ruby client.rb
+1)  Install prerequisite gems
+$  gem install faye
+$  gem install eventmachine
+(You may need to build a Gemfile and do $  bundle install --path vendor/bundle  if you're on a shared host.  Then $  bundle exec ruby server.rb  to get things to work out for you.)
 
-3)  Spawn a webserver such as  $  python -m SimpleHTTPServer
+2)  Run $  ruby server.rb
+
+3)  run $  ruby client.rb
+
+4)  Spawn a webserver such as  $  python -m SimpleHTTPServer
 
 
 On the client:  
