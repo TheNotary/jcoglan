@@ -6,7 +6,8 @@
 
 <body>
   <script type="text/javascript">
-    var server = "192.168.0.6";
+    //var server = "192.168.0.6";
+    var server = window.location.hostname;
     
     var client = new Faye.Client('http://' + server + ':9292/faye', {
       timeout: 120
